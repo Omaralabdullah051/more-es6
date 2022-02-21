@@ -24,7 +24,7 @@ const { software: { fundamental1: c, fundamental2: d } } = company;
 console.log(c, d);
 //when the properties might be missing we need to set default value ;
 //that returns undefined instead of throwing error
-const { hardware: { fundamental2: e } = {} } = company;/*hardware is missing and programme cannot read properties fundamental3 of undefined*/
+const { hardware: { fundamental2: e } = {} } = company;/*hardware is missing and programme cannot read properties fundamental2 of undefined*/
 console.log(e);
 //or
 // optional chaining 
